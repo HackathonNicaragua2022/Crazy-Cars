@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#880888"
+    tools:context=".pantallanegracamila2">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="298dp"
+        android:layout_height="190dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/imagen9" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="343dp"
+        android:layout_height="447dp"
+        android:text="hacia las islas lejanas de la costa, le gustaba nadar en las playas de arena blanca, donde el verde turquesa del mar caribe, se confunde con las aguas azules del océano atlántico, tenia una gran capacidad para bucear y le gustaba extraer las langostas y camarones que encontraba en el fondo del mar, un fondo de arena blanca que le permitía localizar a sus presas muy fácilmente.                                                              Hasta la fecha no se sabe con ciencia cierta, que paso con la descendencia de la negra Camila, aunque en aquella época en las bitácoras de los navíos de carga que se han encontrado, allí manifiestan que vieron a la negra Camila, cultivando tabaco y coco en una bella isla del mar caribe, que la notaban muy feliz y les mandaba sus recuerdos y saludos a su familia y amigos."
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802" />
+</androidx.constraintlayout.widget.ConstraintLayout>

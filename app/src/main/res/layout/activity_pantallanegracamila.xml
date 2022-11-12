@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#880888"
+    tools:context=".pantallanegracamila">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="310dp"
+        android:layout_height="214dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/imagen9" />
+
+    <ImageView
+        android:id="@+id/siguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962"
+        app:srcCompat="@android:drawable/ic_menu_set_as" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="349dp"
+        android:layout_height="414dp"
+        android:text="Dicen que en la zona atlántica de Zelaya, ahora conocida como el RAAN y RAAS, vivían unas comunidades de personas de tez negra, eran descendientes de los miskitos mezclados con mulatos o con negros de la raza mandinga provenientes de África, estos llegaron a la zona del atlántico cuando fueron comercializados como esclavos, ellos se radicaron en esa zona y la poblaron, dedicándose mayormente a la pesca y al cultivo de: Plátanos, bananos, tubérculos, como: la papa, la yuca y otras verduras y vegetales, también cultivaban la palmera de coco, de donde extraían el aceite, el agua refrescante, la leche y preparaban comidas exquisitas con leche de coco y yuca. (Algunos platillos les llamaban ñame y mandioca).                                                                                                                  En ese tiempo existió una mujer muy alta y esbelta, de tez negra que se llamaba Camila, ella provenía de una tribu de beréberes de África, decían que era hija de un jeque árabe que había mezclado su sangre con una mulata, por eso tenía un porte elegante e imponente, aunque ella era muy humilde y servicial con todos sus congéneres, no haciendo distinción entre gente de sangre real y los plebeyos, su vestimenta era completamente de color negro, le gustaba salir y navegar"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.73" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
