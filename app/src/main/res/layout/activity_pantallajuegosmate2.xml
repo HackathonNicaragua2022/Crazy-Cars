@@ -51,7 +51,7 @@
         app:layout_constraintVertical_bias="0.807" />
 
     <TextView
-        android:id="@+id/vvolver"
+        android:id="@+id/volver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Volver al menu principal"
